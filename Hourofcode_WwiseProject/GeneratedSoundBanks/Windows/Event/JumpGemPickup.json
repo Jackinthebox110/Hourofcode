@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "304404394",
+    "Type": "Event",
+    "GUID": "{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}",
+    "Language": "SFX",
+    "Hash": "{0F5D8AC1-AE03-08A2-21E6-AAA67684E4E4}",
+    "ObjectPath": "JumpGemPickup",
+    "ShortName": "JumpGemPickup",
+    "Path": "Event/JumpGemPickup.bnk",
+    "Media": [
+     {
+      "Id": "48314318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Jump Gem.wav",
+      "Path": "Media/48314318.wem",
+      "CachePath": "SFX/Jump Gem_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "304404394",
+      "Name": "JumpGemPickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\JumpGemPickup",
+      "GUID": "{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.78345835",
+      "DurationMax": "0.78345835",
+      "MediaRefs": [
+       {
+        "Id": "48314318"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6E57CC5D-70D3-12AB-2C2D-59357B4AADA0}"
+ }
+}

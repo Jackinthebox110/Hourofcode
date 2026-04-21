@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "438105790",
+    "Type": "Event",
+    "GUID": "{E2385678-358D-4D15-B027-D8365075F24F}",
+    "Language": "SFX",
+    "Hash": "{D24032F6-0CCF-1378-EE60-87E6DAEA5B6A}",
+    "ObjectPath": "Outside",
+    "ShortName": "Outside",
+    "Path": "Event/Outside.bnk",
+    "Media": [
+     {
+      "Id": "5906395",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ambiances\\outside.wav",
+      "Path": "Media/5906395.wem",
+      "CachePath": "SFX/Ambiances/outside_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "438105790",
+      "Name": "Outside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Outside",
+      "GUID": "{E2385678-358D-4D15-B027-D8365075F24F}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "5906395"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D448912F-ED00-A470-9EBE-6E3E538F4721}"
+ }
+}

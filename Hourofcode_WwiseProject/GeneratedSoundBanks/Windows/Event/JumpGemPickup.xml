@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="304404394" Type="Event" GUID="{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}" Language="SFX" Hash="{0F5D8AC1-AE03-08A2-21E6-AAA67684E4E4}">
+			<ObjectPath>JumpGemPickup</ObjectPath>
+			<ShortName>JumpGemPickup</ShortName>
+			<Path>Event/JumpGemPickup.bnk</Path>
+			<Media>
+				<File Id="48314318" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Jump Gem.wav</ShortName>
+					<Path>Media/48314318.wem</Path>
+					<CachePath>SFX/Jump Gem_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="304404394" Name="JumpGemPickup" ObjectPath="\Events\Default Work Unit\JumpGemPickup" GUID="{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}" DurationType="OneShot" DurationMin="0.78345835" DurationMax="0.78345835">
+					<MediaRefs>
+						<MediaRef Id="48314318"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{66DBBC0C-8A94-BB12-FA0A-FB1C4860C53C}</FileHash>
+</SoundBanksInfo>

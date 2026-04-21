@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3478592334",
+    "Type": "Event",
+    "GUID": "{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}",
+    "Language": "SFX",
+    "Hash": "{D9D89A0D-30EE-4F7A-F35F-FDCF24B33FF1}",
+    "ObjectPath": "sphere",
+    "ShortName": "sphere",
+    "Path": "Event/sphere.bnk",
+    "Media": [
+     {
+      "Id": "465870529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalSphere.wav",
+      "Path": "Media/465870529.wem",
+      "CachePath": "SFX/MetalSphere_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3478592334",
+      "Name": "sphere",
+      "ObjectPath": "\\Events\\Default Work Unit\\sphere",
+      "GUID": "{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.5",
+      "DurationMax": "7.5",
+      "MediaRefs": [
+       {
+        "Id": "465870529"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7D34F648-3F7E-9BE2-EB52-B43891F3FDEA}"
+ }
+}

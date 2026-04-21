@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3857664290" Type="Event" GUID="{8636E8AF-64E3-4719-9B28-958B692999ED}" Language="SFX" Hash="{817CAC4C-DB1B-25EF-A24A-D289D6C031BC}">
+			<ObjectPath>lifelayer</ObjectPath>
+			<ShortName>lifelayer</ShortName>
+			<Path>Event/lifelayer.bnk</Path>
+			<Media>
+				<File Id="214114415" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Belt 2.wav</ShortName>
+					<Path>Media/214114415.wem</Path>
+					<CachePath>SFX/LIfe Layer/Belt 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="829889734" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Belt 1.wav</ShortName>
+					<Path>Media/829889734.wem</Path>
+					<CachePath>SFX/LIfe Layer/Belt 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="838090625" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Cloth 1.wav</ShortName>
+					<Path>Media/838090625.wem</Path>
+					<CachePath>SFX/LIfe Layer/Cloth 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="969867495" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Cloth 2.wav</ShortName>
+					<Path>Media/969867495.wem</Path>
+					<CachePath>SFX/LIfe Layer/Cloth 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1033194330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Belt 3.wav</ShortName>
+					<Path>Media/1033194330.wem</Path>
+					<CachePath>SFX/LIfe Layer/Belt 3_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3857664290" Name="lifelayer" ObjectPath="\Events\Default Work Unit\lifelayer" GUID="{8636E8AF-64E3-4719-9B28-958B692999ED}" DurationType="OneShot" DurationMin="0.14058957" DurationMax="1.0262812">
+					<MediaRefs>
+						<MediaRef Id="214114415"/>
+						<MediaRef Id="829889734"/>
+						<MediaRef Id="838090625"/>
+						<MediaRef Id="969867495"/>
+						<MediaRef Id="1033194330"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0BDA6A6E-AA1C-EC6F-F842-5013CAF5BB35}</FileHash>
+</SoundBanksInfo>

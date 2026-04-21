@@ -1,0 +1,96 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3857664290",
+    "Type": "Event",
+    "GUID": "{8636E8AF-64E3-4719-9B28-958B692999ED}",
+    "Language": "SFX",
+    "Hash": "{817CAC4C-DB1B-25EF-A24A-D289D6C031BC}",
+    "ObjectPath": "lifelayer",
+    "ShortName": "lifelayer",
+    "Path": "Event/lifelayer.bnk",
+    "Media": [
+     {
+      "Id": "214114415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LIfe Layer\\Belt 2.wav",
+      "Path": "Media/214114415.wem",
+      "CachePath": "SFX/LIfe Layer/Belt 2_818F3B66.wem"
+     },
+     {
+      "Id": "829889734",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LIfe Layer\\Belt 1.wav",
+      "Path": "Media/829889734.wem",
+      "CachePath": "SFX/LIfe Layer/Belt 1_818F3B66.wem"
+     },
+     {
+      "Id": "838090625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LIfe Layer\\Cloth 1.wav",
+      "Path": "Media/838090625.wem",
+      "CachePath": "SFX/LIfe Layer/Cloth 1_818F3B66.wem"
+     },
+     {
+      "Id": "969867495",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LIfe Layer\\Cloth 2.wav",
+      "Path": "Media/969867495.wem",
+      "CachePath": "SFX/LIfe Layer/Cloth 2_818F3B66.wem"
+     },
+     {
+      "Id": "1033194330",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "LIfe Layer\\Belt 3.wav",
+      "Path": "Media/1033194330.wem",
+      "CachePath": "SFX/LIfe Layer/Belt 3_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3857664290",
+      "Name": "lifelayer",
+      "ObjectPath": "\\Events\\Default Work Unit\\lifelayer",
+      "GUID": "{8636E8AF-64E3-4719-9B28-958B692999ED}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14058957",
+      "DurationMax": "1.0262812",
+      "MediaRefs": [
+       {
+        "Id": "214114415"
+       },
+       {
+        "Id": "829889734"
+       },
+       {
+        "Id": "838090625"
+       },
+       {
+        "Id": "969867495"
+       },
+       {
+        "Id": "1033194330"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F246B375-DFC4-20FD-4803-B908ACA84058}"
+ }
+}

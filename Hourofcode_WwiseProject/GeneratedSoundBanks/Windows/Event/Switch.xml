@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3202316517" Type="Event" GUID="{49C66714-64D5-4B6F-96A5-0B68FB6CB951}" Language="SFX" Hash="{4E460B30-6152-3214-26C1-DCE3C5CAD0B6}">
+			<ObjectPath>Switch</ObjectPath>
+			<ShortName>Switch</ShortName>
+			<Path>Event/Switch.bnk</Path>
+			<Media>
+				<File Id="658327705" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Door switch.wav</ShortName>
+					<Path>Media/658327705.wem</Path>
+					<CachePath>SFX/Door switch_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3202316517" Name="Switch" ObjectPath="\Events\Default Work Unit\Switch" GUID="{49C66714-64D5-4B6F-96A5-0B68FB6CB951}" DurationType="OneShot" DurationMin="0.52685416" DurationMax="0.52685416">
+					<MediaRefs>
+						<MediaRef Id="658327705"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8EBDE34C-0D59-6425-417F-C06FE2904D53}</FileHash>
+</SoundBanksInfo>
