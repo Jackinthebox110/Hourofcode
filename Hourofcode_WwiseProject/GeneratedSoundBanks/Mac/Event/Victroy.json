@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2930403515",
+    "Type": "Event",
+    "GUID": "{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}",
+    "Language": "SFX",
+    "Hash": "{D6928967-F31E-C766-88CE-9935A1224A31}",
+    "ObjectPath": "Victroy",
+    "ShortName": "Victroy",
+    "Path": "Event/Victroy.bnk",
+    "Media": [
+     {
+      "Id": "922255477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Victory.wav",
+      "Path": "Media/922255477.wem",
+      "CachePath": "SFX/Victory_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2930403515",
+      "Name": "Victroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Victroy",
+      "GUID": "{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4468958",
+      "DurationMax": "2.4468958",
+      "MediaRefs": [
+       {
+        "Id": "922255477"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{567D7648-50DD-B84C-7311-95E6AC4897FB}"
+ }
+}

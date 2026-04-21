@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8C4623B5-2D80-4B11-9D5D-F49F0D3F9D40}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8C4623B5-2D80-4B11-9D5D-F49F0D3F9D40}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="New Virtual Folder" ID="{1C53D95B-7DC5-4F33-9882-9ED8EAD5D6F4}" ShortID="544995107">
+					<ChildrenList>
+						<Event Name="islandstart" ID="{7BF6C7EB-5A57-4514-A7E2-69A82C63E983}">
+							<ChildrenList>
+								<Action Name="" ID="{8793E864-BFF1-4D35-BEB2-F0B5D99C5487}" ShortID="619905471">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="island start" ID="{516CAB4A-AD50-4EB5-BF69-BEED2DD30449}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Islandmiddle" ID="{3BBCB984-2AF5-4BF4-A615-2D65ABB4EE23}">
+							<ChildrenList>
+								<Action Name="" ID="{92D6FDFD-D826-4F98-A439-9FA5AF1F2E82}" ShortID="236172245">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Island middle" ID="{157651F5-7B13-4140-8193-CEF08ACCB9A1}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Islandend" ID="{39C05EED-D374-4400-9950-6FC86EEC6063}">
+							<ChildrenList>
+								<Action Name="" ID="{C5832F0B-1E68-41D0-A0F8-3E0047D78C96}" ShortID="1010797179">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Island end" ID="{1DEBDAF9-3EF3-42C9-9D93-07667A42611D}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="coinpickup" ID="{E895D82B-F063-43EC-B1E9-CF840FD3BA0C}">
+					<ChildrenList>
+						<Action Name="" ID="{D4E3C368-8E22-4000-A217-0D37C7B34BE6}" ShortID="162556781">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin" ID="{53E27615-DFE7-41C2-9F89-F49F2831EE34}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Gempickup" ID="{180AAB07-A032-4E33-BDAB-51BA1C0183B4}">
+					<ChildrenList>
+						<Action Name="" ID="{BC80F5BB-8145-4E9C-94D1-46AD75926180}" ShortID="320272558">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem" ID="{F819410A-71AB-488F-A879-2EDFD74EB960}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Keypickup" ID="{8563832B-5F23-439B-9D26-867728067CFE}">
+					<ChildrenList>
+						<Action Name="" ID="{0FA365F0-19C1-44ED-A45E-34A7D8F450FB}" ShortID="397791415">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Key" ID="{F7F06C20-F3D4-4267-9AA5-E45493BAB28F}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="JumpGemPickup" ID="{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}">
+					<ChildrenList>
+						<Action Name="" ID="{C9337F98-214D-4281-BA2B-80BD7F76D3B9}" ShortID="375940543">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump Gem" ID="{39BB825D-E456-4970-B9F8-EC478E3F10C1}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Checkpoint" ID="{0FF92FAC-51E8-4FEE-B33D-2B9CD05837FC}">
+					<ChildrenList>
+						<Action Name="" ID="{917696FA-A7E2-440A-8C82-8D2F38B8DF03}" ShortID="193061751">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Checkpoint" ID="{00A31FC0-4B89-45C7-9A8F-44355BE6D9DC}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dooropen" ID="{8576C948-1934-4170-9445-759C63F7D53F}">
+					<ChildrenList>
+						<Action Name="" ID="{675380D4-3CF9-43CB-B0D7-BA019ADCB8E5}" ShortID="455538025">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Open" ID="{9D747E60-B1FA-46BB-A5CA-0AF2344C2C85}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Switch" ID="{49C66714-64D5-4B6F-96A5-0B68FB6CB951}">
+					<ChildrenList>
+						<Action Name="" ID="{63295289-F681-42A3-8BBD-F110ADDDF0E7}" ShortID="595924825">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door switch" ID="{D30899BF-D3C0-4F71-A55C-5ECCC17E00A6}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Victroy" ID="{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}">
+					<ChildrenList>
+						<Action Name="" ID="{03DB95E9-67AE-4E26-AB64-95F637D9A784}" ShortID="318814138">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{2A3C3F39-F144-4BCF-B0F7-C509987F8E35}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sphere" ID="{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}">
+					<ChildrenList>
+						<Action Name="" ID="{F3ABD146-D063-40E2-9DFD-C2EC73F5837A}" ShortID="588843958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MetalSphere" ID="{68D74970-1FA4-433C-AFDE-2E9748665229}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{84587803-DC18-45BC-AC8A-E902E6915812}">
+					<ChildrenList>
+						<Action Name="" ID="{DA256B76-F396-4288-81DA-3416C2D78FDE}" ShortID="735004600">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Surfaces" ID="{AE48A0C5-5466-4FFB-808A-554E31BA7970}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Outside" ID="{E2385678-358D-4D15-B027-D8365075F24F}">
+					<ChildrenList>
+						<Action Name="" ID="{AF19D633-1143-42D1-8E7D-2D00F8861325}" ShortID="760305357">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="outside" ID="{D022B754-357F-4603-87B8-3348410C67B4}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Inside" ID="{527AEBCE-64E6-4380-B69C-C410987A369E}">
+					<ChildrenList>
+						<Action Name="" ID="{120F0DF5-1C7B-47E4-BB7B-9D4FFF8110A9}" ShortID="508639302">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="inside" ID="{3CCE4652-CCF7-48EA-B149-0028427E1E5B}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SurFaces" ID="{B4427E2A-1644-4204-9C0C-A03F3E2CFB2D}">
+					<ChildrenList>
+						<Action Name="" ID="{F0C7F574-A0B7-4797-8F05-714D0106C742}" ShortID="607453048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Surfaces" ID="{AE48A0C5-5466-4FFB-808A-554E31BA7970}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lifelayer" ID="{8636E8AF-64E3-4719-9B28-958B692999ED}">
+					<ChildrenList>
+						<Action Name="" ID="{BE29CF63-FAD7-4726-8B5E-388D5A191ED3}" ShortID="751082013">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Life Layer" ID="{942657DA-958A-44E7-BBB6-7C17BC71FD3C}" WorkUnitID="{3B1D0C86-5CB2-4B80-83B1-0FBFEFA0A680}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

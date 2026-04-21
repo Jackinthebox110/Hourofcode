@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	438105790	Outside			\Default Work Unit\Outside	
+

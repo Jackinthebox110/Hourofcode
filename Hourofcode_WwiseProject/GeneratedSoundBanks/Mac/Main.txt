@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2752428610	coinpickup			\Default Work Unit\coinpickup	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	38376692	Coin 2	Y:\Documents\Unreal Projects\Hourofcode\Hourofcode_WwiseProject\.cache\Mac\SFX\Coin\Coin 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin\Coin 2		182400
+	297656704	Coin 1	Y:\Documents\Unreal Projects\Hourofcode\Hourofcode_WwiseProject\.cache\Mac\SFX\Coin\Coin 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin\Coin 1		182400
+	386111651	Coin 3	Y:\Documents\Unreal Projects\Hourofcode\Hourofcode_WwiseProject\.cache\Mac\SFX\Coin\Coin 3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin\Coin 3		182400
+

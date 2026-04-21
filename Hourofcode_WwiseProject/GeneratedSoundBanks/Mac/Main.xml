@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{C8813557-BDEF-413B-A714-5C3C80828BF4}" Language="SFX" Hash="{DEDEBCA4-9E6A-02AF-77AB-16EBB58898F4}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="38376692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coin\Coin 2.wav</ShortName>
+					<CachePath>SFX/Coin/Coin 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="297656704" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coin\Coin 1.wav</ShortName>
+					<CachePath>SFX/Coin/Coin 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="386111651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coin\Coin 3.wav</ShortName>
+					<CachePath>SFX/Coin/Coin 3_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2752428610" Name="coinpickup" ObjectPath="\Events\Default Work Unit\coinpickup" GUID="{E895D82B-F063-43EC-B1E9-CF840FD3BA0C}" DurationType="OneShot" DurationMin="0.94916666" DurationMax="0.94916666">
+					<MediaRefs>
+						<MediaRef Id="38376692"/>
+						<MediaRef Id="297656704"/>
+						<MediaRef Id="386111651"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6C275B89-740E-182A-E8E6-D3CF65C033D6}</FileHash>
+</SoundBanksInfo>

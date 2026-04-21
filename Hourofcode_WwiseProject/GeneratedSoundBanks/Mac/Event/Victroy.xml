@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2930403515" Type="Event" GUID="{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}" Language="SFX" Hash="{D6928967-F31E-C766-88CE-9935A1224A31}">
+			<ObjectPath>Victroy</ObjectPath>
+			<ShortName>Victroy</ShortName>
+			<Path>Event/Victroy.bnk</Path>
+			<Media>
+				<File Id="922255477" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Victory.wav</ShortName>
+					<Path>Media/922255477.wem</Path>
+					<CachePath>SFX/Victory_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2930403515" Name="Victroy" ObjectPath="\Events\Default Work Unit\Victroy" GUID="{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}" DurationType="OneShot" DurationMin="2.4468958" DurationMax="2.4468958">
+					<MediaRefs>
+						<MediaRef Id="922255477"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EE031CC6-3A9B-C974-C771-56CE83B92C2F}</FileHash>
+</SoundBanksInfo>

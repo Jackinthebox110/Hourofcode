@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3202316517",
+    "Type": "Event",
+    "GUID": "{49C66714-64D5-4B6F-96A5-0B68FB6CB951}",
+    "Language": "SFX",
+    "Hash": "{4E460B30-6152-3214-26C1-DCE3C5CAD0B6}",
+    "ObjectPath": "Switch",
+    "ShortName": "Switch",
+    "Path": "Event/Switch.bnk",
+    "Media": [
+     {
+      "Id": "658327705",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Door switch.wav",
+      "Path": "Media/658327705.wem",
+      "CachePath": "SFX/Door switch_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3202316517",
+      "Name": "Switch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Switch",
+      "GUID": "{49C66714-64D5-4B6F-96A5-0B68FB6CB951}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.52685416",
+      "DurationMax": "0.52685416",
+      "MediaRefs": [
+       {
+        "Id": "658327705"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{EE0694BD-FED7-6C25-FF6B-9F6B3675F784}"
+ }
+}

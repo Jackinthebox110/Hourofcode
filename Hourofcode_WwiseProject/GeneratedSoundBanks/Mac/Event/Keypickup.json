@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1616845350",
+    "Type": "Event",
+    "GUID": "{8563832B-5F23-439B-9D26-867728067CFE}",
+    "Language": "SFX",
+    "Hash": "{8D9C4A0A-65D8-8372-84F0-5B359EF67ACB}",
+    "ObjectPath": "Keypickup",
+    "ShortName": "Keypickup",
+    "Path": "Event/Keypickup.bnk",
+    "Media": [
+     {
+      "Id": "469529450",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Key\\Key 3.wav",
+      "Path": "Media/469529450.wem",
+      "CachePath": "SFX/Key/Key 3_818F3B66.wem"
+     },
+     {
+      "Id": "586504896",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Key\\Key 1.wav",
+      "Path": "Media/586504896.wem",
+      "CachePath": "SFX/Key/Key 1_818F3B66.wem"
+     },
+     {
+      "Id": "1056372522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Key\\Key 2.wav",
+      "Path": "Media/1056372522.wem",
+      "CachePath": "SFX/Key/Key 2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1616845350",
+      "Name": "Keypickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Keypickup",
+      "GUID": "{8563832B-5F23-439B-9D26-867728067CFE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.73639584",
+      "DurationMax": "0.75752085",
+      "MediaRefs": [
+       {
+        "Id": "469529450"
+       },
+       {
+        "Id": "586504896"
+       },
+       {
+        "Id": "1056372522"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C324ECFD-CB39-B18C-1BFE-67E1A7FA162B}"
+ }
+}

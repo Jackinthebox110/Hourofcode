@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{C8813557-BDEF-413B-A714-5C3C80828BF4}",
+    "Language": "SFX",
+    "Hash": "{DEDEBCA4-9E6A-02AF-77AB-16EBB58898F4}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "38376692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin\\Coin 2.wav",
+      "CachePath": "SFX/Coin/Coin 2_818F3B66.wem"
+     },
+     {
+      "Id": "297656704",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin\\Coin 1.wav",
+      "CachePath": "SFX/Coin/Coin 1_818F3B66.wem"
+     },
+     {
+      "Id": "386111651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin\\Coin 3.wav",
+      "CachePath": "SFX/Coin/Coin 3_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2752428610",
+      "Name": "coinpickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\coinpickup",
+      "GUID": "{E895D82B-F063-43EC-B1E9-CF840FD3BA0C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.94916666",
+      "DurationMax": "0.94916666",
+      "MediaRefs": [
+       {
+        "Id": "38376692"
+       },
+       {
+        "Id": "297656704"
+       },
+       {
+        "Id": "386111651"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{33A3F57B-3144-0CC4-CBED-E2FECCD419D6}"
+ }
+}

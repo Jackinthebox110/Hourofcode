@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3478592334" Type="Event" GUID="{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}" Language="SFX" Hash="{D9D89A0D-30EE-4F7A-F35F-FDCF24B33FF1}">
+			<ObjectPath>sphere</ObjectPath>
+			<ShortName>sphere</ShortName>
+			<Path>Event/sphere.bnk</Path>
+			<Media>
+				<File Id="465870529" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalSphere.wav</ShortName>
+					<Path>Media/465870529.wem</Path>
+					<CachePath>SFX/MetalSphere_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3478592334" Name="sphere" ObjectPath="\Events\Default Work Unit\sphere" GUID="{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}" DurationType="OneShot" DurationMin="7.5" DurationMax="7.5">
+					<MediaRefs>
+						<MediaRef Id="465870529"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{94256E3A-9FC0-A733-323B-587E62E2C22F}</FileHash>
+</SoundBanksInfo>

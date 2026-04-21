@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1098076601" Type="Event" GUID="{3BBCB984-2AF5-4BF4-A615-2D65ABB4EE23}" Language="SFX" Hash="{E71D618A-DA46-4EC8-9125-142D3F555019}">
+			<ObjectPath>Islandmiddle</ObjectPath>
+			<ShortName>Islandmiddle</ShortName>
+			<Path>Event/Islandmiddle.bnk</Path>
+			<Media>
+				<File Id="134914914" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Floating Island\Island middle.wav</ShortName>
+					<Path>Media/134914914.wem</Path>
+					<CachePath>SFX/Floating Island/Island middle_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1098076601" Name="Islandmiddle" ObjectPath="\Events\Default Work Unit\New Virtual Folder\Islandmiddle" GUID="{3BBCB984-2AF5-4BF4-A615-2D65ABB4EE23}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="5.9045625" DurationMax="5.9045625">
+					<MediaRefs>
+						<MediaRef Id="134914914"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9F9670A3-168D-4F1E-5FB4-713E0CDFE548}</FileHash>
+</SoundBanksInfo>

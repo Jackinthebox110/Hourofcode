@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3374552089",
+    "Type": "Event",
+    "GUID": "{39C05EED-D374-4400-9950-6FC86EEC6063}",
+    "Language": "SFX",
+    "Hash": "{83C176F3-FBC4-EE53-A339-83AED152D2E4}",
+    "ObjectPath": "Islandend",
+    "ShortName": "Islandend",
+    "Path": "Event/Islandend.bnk",
+    "Media": [
+     {
+      "Id": "780587267",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Floating Island\\Island end.wav",
+      "Path": "Media/780587267.wem",
+      "CachePath": "SFX/Floating Island/Island end_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3374552089",
+      "Name": "Islandend",
+      "ObjectPath": "\\Events\\Default Work Unit\\New Virtual Folder\\Islandend",
+      "GUID": "{39C05EED-D374-4400-9950-6FC86EEC6063}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3959167",
+      "DurationMax": "2.3959167",
+      "MediaRefs": [
+       {
+        "Id": "780587267"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{112A3784-3DEE-927E-D502-A29E4D256F3B}"
+ }
+}

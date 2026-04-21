@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3553349781",
+    "Type": "Event",
+    "GUID": "{527AEBCE-64E6-4380-B69C-C410987A369E}",
+    "Language": "SFX",
+    "Hash": "{278B6344-FC17-DE15-4F67-65A9A7236705}",
+    "ObjectPath": "Inside",
+    "ShortName": "Inside",
+    "Path": "Event/Inside.bnk",
+    "Media": [
+     {
+      "Id": "357836959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ambiances\\inside.wav",
+      "Path": "Media/357836959.wem",
+      "CachePath": "SFX/Ambiances/inside_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3553349781",
+      "Name": "Inside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Inside",
+      "GUID": "{527AEBCE-64E6-4380-B69C-C410987A369E}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "357836959"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{96F475FB-38BD-972D-99BC-534BD155CFC5}"
+ }
+}

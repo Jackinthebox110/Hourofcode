@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1098076601	Islandmiddle			\Default Work Unit\New Virtual Folder\Islandmiddle	
+

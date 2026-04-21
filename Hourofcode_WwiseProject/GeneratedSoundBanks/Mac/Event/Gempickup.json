@@ -1,0 +1,72 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2851192318",
+    "Type": "Event",
+    "GUID": "{180AAB07-A032-4E33-BDAB-51BA1C0183B4}",
+    "Language": "SFX",
+    "Hash": "{3CB0CED7-DEE4-DCDB-1159-1A6DC6A12C99}",
+    "ObjectPath": "Gempickup",
+    "ShortName": "Gempickup",
+    "Path": "Event/Gempickup.bnk",
+    "Media": [
+     {
+      "Id": "162381253",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gem\\Gem3.wav",
+      "Path": "Media/162381253.wem",
+      "CachePath": "SFX/Gem/Gem3_818F3B66.wem"
+     },
+     {
+      "Id": "188891156",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gem\\Gem 1.wav",
+      "Path": "Media/188891156.wem",
+      "CachePath": "SFX/Gem/Gem 1_818F3B66.wem"
+     },
+     {
+      "Id": "388321635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gem\\Gem 2.wav",
+      "Path": "Media/388321635.wem",
+      "CachePath": "SFX/Gem/Gem 2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2851192318",
+      "Name": "Gempickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gempickup",
+      "GUID": "{180AAB07-A032-4E33-BDAB-51BA1C0183B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.60083336",
+      "DurationMax": "0.61875",
+      "MediaRefs": [
+       {
+        "Id": "162381253"
+       },
+       {
+        "Id": "188891156"
+       },
+       {
+        "Id": "388321635"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D63C078-CEEE-1048-4293-59ACB8E951CF}"
+ }
+}
