@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3374552089" Type="Event" GUID="{39C05EED-D374-4400-9950-6FC86EEC6063}" Language="SFX" Hash="{83C176F3-FBC4-EE53-A339-83AED152D2E4}">
+			<ObjectPath>Islandend</ObjectPath>
+			<ShortName>Islandend</ShortName>
+			<Path>Event/Islandend.bnk</Path>
+			<Media>
+				<File Id="780587267" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Floating Island\Island end.wav</ShortName>
+					<Path>Media/780587267.wem</Path>
+					<CachePath>SFX/Floating Island/Island end_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3374552089" Name="Islandend" ObjectPath="\Events\Default Work Unit\New Virtual Folder\Islandend" GUID="{39C05EED-D374-4400-9950-6FC86EEC6063}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="2.3959167" DurationMax="2.3959167">
+					<MediaRefs>
+						<MediaRef Id="780587267"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{26721F6A-F459-9AF8-99FF-3887A0736DE7}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,255 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2385628198",
+    "Type": "Event",
+    "GUID": "{84587803-DC18-45BC-AC8A-E902E6915812}",
+    "Language": "SFX",
+    "Hash": "{BF272AB7-412B-B401-EE6D-E7E862AFC1EB}",
+    "ObjectPath": "Footsteps",
+    "ShortName": "Footsteps",
+    "Path": "Event/Footsteps.bnk",
+    "Media": [
+     {
+      "Id": "58755828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grass\\Grass 1.wav",
+      "Path": "Media/58755828.wem",
+      "CachePath": "SFX/Grass/Grass 1_818F3B66.wem"
+     },
+     {
+      "Id": "203027913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Tile\\Tile 3.wav",
+      "Path": "Media/203027913.wem",
+      "CachePath": "SFX/Tile/Tile 3_818F3B66.wem"
+     },
+     {
+      "Id": "208665664",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood\\Wood 3.wav",
+      "Path": "Media/208665664.wem",
+      "CachePath": "SFX/Wood/Wood 3_818F3B66.wem"
+     },
+     {
+      "Id": "221492408",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Tile\\Tile 1.wav",
+      "Path": "Media/221492408.wem",
+      "CachePath": "SFX/Tile/Tile 1_818F3B66.wem"
+     },
+     {
+      "Id": "225716099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Metal\\Metal 2.wav",
+      "Path": "Media/225716099.wem",
+      "CachePath": "SFX/Metal/Metal 2_818F3B66.wem"
+     },
+     {
+      "Id": "271535065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grass\\Grass 2.wav",
+      "Path": "Media/271535065.wem",
+      "CachePath": "SFX/Grass/Grass 2_818F3B66.wem"
+     },
+     {
+      "Id": "516007803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood\\Wood 2.wav",
+      "Path": "Media/516007803.wem",
+      "CachePath": "SFX/Wood/Wood 2_818F3B66.wem"
+     },
+     {
+      "Id": "525485786",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Metal\\Metal 1.wav",
+      "Path": "Media/525485786.wem",
+      "CachePath": "SFX/Metal/Metal 1_818F3B66.wem"
+     },
+     {
+      "Id": "599856624",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wood\\Wood 1.wav",
+      "Path": "Media/599856624.wem",
+      "CachePath": "SFX/Wood/Wood 1_818F3B66.wem"
+     },
+     {
+      "Id": "601226781",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grass\\Grass 3.wav",
+      "Path": "Media/601226781.wem",
+      "CachePath": "SFX/Grass/Grass 3_818F3B66.wem"
+     },
+     {
+      "Id": "690801669",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Metal\\Metal 3.wav",
+      "Path": "Media/690801669.wem",
+      "CachePath": "SFX/Metal/Metal 3_818F3B66.wem"
+     },
+     {
+      "Id": "946109919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Tile\\Tile 2.wav",
+      "Path": "Media/946109919.wem",
+      "CachePath": "SFX/Tile/Tile 2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{84587803-DC18-45BC-AC8A-E902E6915812}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29333332",
+      "DurationMax": "0.6506576",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2637588553",
+         "GUID": "{827FFF30-B705-4B9D-9820-669E3D13A11D}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "203027913"
+         },
+         {
+          "Id": "221492408"
+         },
+         {
+          "Id": "946109919"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2058049674",
+         "GUID": "{034DC98E-D905-4E29-9DE1-A17BFACD8899}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "208665664"
+         },
+         {
+          "Id": "516007803"
+         },
+         {
+          "Id": "599856624"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "2473969246",
+         "GUID": "{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "225716099"
+         },
+         {
+          "Id": "525485786"
+         },
+         {
+          "Id": "690801669"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3865314626",
+         "Id": "4248645337",
+         "GUID": "{E2D2F7C8-330B-497D-81F2-D887F13388B6}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "58755828"
+         },
+         {
+          "Id": "271535065"
+         },
+         {
+          "Id": "601226781"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3865314626",
+      "Name": "Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "GUID": "{9AD732D6-1D70-4475-A053-129D721A9876}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Wood",
+        "GUID": "{034DC98E-D905-4E29-9DE1-A17BFACD8899}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "GUID": "{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"
+       },
+       {
+        "Id": "2637588553",
+        "Name": "Tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Tile",
+        "GUID": "{827FFF30-B705-4B9D-9820-669E3D13A11D}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Grass",
+        "GUID": "{E2D2F7C8-330B-497D-81F2-D887F13388B6}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8FCCA3E5-62F1-9F23-1E18-C066EF8EEDD2}"
+ }
+}

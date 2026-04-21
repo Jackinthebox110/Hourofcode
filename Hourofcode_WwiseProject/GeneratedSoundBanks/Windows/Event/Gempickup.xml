@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2851192318" Type="Event" GUID="{180AAB07-A032-4E33-BDAB-51BA1C0183B4}" Language="SFX" Hash="{3CB0CED7-DEE4-DCDB-1159-1A6DC6A12C99}">
+			<ObjectPath>Gempickup</ObjectPath>
+			<ShortName>Gempickup</ShortName>
+			<Path>Event/Gempickup.bnk</Path>
+			<Media>
+				<File Id="162381253" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Gem\Gem3.wav</ShortName>
+					<Path>Media/162381253.wem</Path>
+					<CachePath>SFX/Gem/Gem3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="188891156" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Gem\Gem 1.wav</ShortName>
+					<Path>Media/188891156.wem</Path>
+					<CachePath>SFX/Gem/Gem 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="388321635" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Gem\Gem 2.wav</ShortName>
+					<Path>Media/388321635.wem</Path>
+					<CachePath>SFX/Gem/Gem 2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2851192318" Name="Gempickup" ObjectPath="\Events\Default Work Unit\Gempickup" GUID="{180AAB07-A032-4E33-BDAB-51BA1C0183B4}" DurationType="OneShot" DurationMin="0.60083336" DurationMax="0.61875">
+					<MediaRefs>
+						<MediaRef Id="162381253"/>
+						<MediaRef Id="188891156"/>
+						<MediaRef Id="388321635"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{66E57E39-75A3-8B5C-F4FF-93A28E32E130}</FileHash>
+</SoundBanksInfo>

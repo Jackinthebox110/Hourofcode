@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="612075679" Type="Event" GUID="{0FF92FAC-51E8-4FEE-B33D-2B9CD05837FC}" Language="SFX" Hash="{3A719277-71E4-A4EB-11F3-BCC271924ECE}">
+			<ObjectPath>Checkpoint</ObjectPath>
+			<ShortName>Checkpoint</ShortName>
+			<Path>Event/Checkpoint.bnk</Path>
+			<Media>
+				<File Id="260316198" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Checkpoint.wav</ShortName>
+					<Path>Media/260316198.wem</Path>
+					<CachePath>SFX/Checkpoint_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="612075679" Name="Checkpoint" ObjectPath="\Events\Default Work Unit\Checkpoint" GUID="{0FF92FAC-51E8-4FEE-B33D-2B9CD05837FC}" DurationType="OneShot" DurationMin="1.261875" DurationMax="1.261875">
+					<MediaRefs>
+						<MediaRef Id="260316198"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F19F53FC-53B2-CA0A-8476-6EA683092FC2}</FileHash>
+</SoundBanksInfo>

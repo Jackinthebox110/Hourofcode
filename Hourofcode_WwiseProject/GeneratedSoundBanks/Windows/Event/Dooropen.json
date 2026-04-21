@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1404805401",
+    "Type": "Event",
+    "GUID": "{8576C948-1934-4170-9445-759C63F7D53F}",
+    "Language": "SFX",
+    "Hash": "{85A6C3C1-DC4D-71AD-30A3-F4722C9865C2}",
+    "ObjectPath": "Dooropen",
+    "ShortName": "Dooropen",
+    "Path": "Event/Dooropen.bnk",
+    "Media": [
+     {
+      "Id": "207166539",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Door Open.wav",
+      "Path": "Media/207166539.wem",
+      "CachePath": "SFX/Door Open_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1404805401",
+      "Name": "Dooropen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Dooropen",
+      "GUID": "{8576C948-1934-4170-9445-759C63F7D53F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.4334693",
+      "DurationMax": "3.4334693",
+      "MediaRefs": [
+       {
+        "Id": "207166539"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4CDB3051-0D9D-703B-2E8B-5F69B1657B53}"
+ }
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3553349781" Type="Event" GUID="{527AEBCE-64E6-4380-B69C-C410987A369E}" Language="SFX" Hash="{278B6344-FC17-DE15-4F67-65A9A7236705}">
+			<ObjectPath>Inside</ObjectPath>
+			<ShortName>Inside</ShortName>
+			<Path>Event/Inside.bnk</Path>
+			<Media>
+				<File Id="357836959" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ambiances\inside.wav</ShortName>
+					<Path>Media/357836959.wem</Path>
+					<CachePath>SFX/Ambiances/inside_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3553349781" Name="Inside" ObjectPath="\Events\Default Work Unit\Inside" GUID="{527AEBCE-64E6-4380-B69C-C410987A369E}" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="357836959"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{A8C75571-2CEC-9B77-1268-33681A9F0A1D}</FileHash>
+</SoundBanksInfo>

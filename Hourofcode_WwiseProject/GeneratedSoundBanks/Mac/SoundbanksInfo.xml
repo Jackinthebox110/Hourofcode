@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="304404394" Type="Event" GUID="{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}" Language="SFX" Hash="{0F5D8AC1-AE03-08A2-21E6-AAA67684E4E4}">
+			<ObjectPath>JumpGemPickup</ObjectPath>
+			<ShortName>JumpGemPickup</ShortName>
+			<Path>Event/JumpGemPickup.bnk</Path>
+			<Media>
+				<File Id="48314318" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Jump Gem.wav</ShortName>
+					<Path>Media/48314318.wem</Path>
+					<CachePath>SFX/Jump Gem_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="304404394" Name="JumpGemPickup" ObjectPath="\Events\Default Work Unit\JumpGemPickup" GUID="{7CE0DCC8-A9F7-499E-A700-2C3BED7E299B}" DurationType="OneShot" DurationMin="0.78345835" DurationMax="0.78345835">
+					<MediaRefs>
+						<MediaRef Id="48314318"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="438105790" Type="Event" GUID="{E2385678-358D-4D15-B027-D8365075F24F}" Language="SFX" Hash="{D24032F6-0CCF-1378-EE60-87E6DAEA5B6A}">
+			<ObjectPath>Outside</ObjectPath>
+			<ShortName>Outside</ShortName>
+			<Path>Event/Outside.bnk</Path>
+			<Media>
+				<File Id="5906395" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ambiances\outside.wav</ShortName>
+					<Path>Media/5906395.wem</Path>
+					<CachePath>SFX/Ambiances/outside_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="438105790" Name="Outside" ObjectPath="\Events\Default Work Unit\Outside" GUID="{E2385678-358D-4D15-B027-D8365075F24F}" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="5906395"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="612075679" Type="Event" GUID="{0FF92FAC-51E8-4FEE-B33D-2B9CD05837FC}" Language="SFX" Hash="{3A719277-71E4-A4EB-11F3-BCC271924ECE}">
+			<ObjectPath>Checkpoint</ObjectPath>
+			<ShortName>Checkpoint</ShortName>
+			<Path>Event/Checkpoint.bnk</Path>
+			<Media>
+				<File Id="260316198" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Checkpoint.wav</ShortName>
+					<Path>Media/260316198.wem</Path>
+					<CachePath>SFX/Checkpoint_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="612075679" Name="Checkpoint" ObjectPath="\Events\Default Work Unit\Checkpoint" GUID="{0FF92FAC-51E8-4FEE-B33D-2B9CD05837FC}" DurationType="OneShot" DurationMin="1.261875" DurationMax="1.261875">
+					<MediaRefs>
+						<MediaRef Id="260316198"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1098076601" Type="Event" GUID="{3BBCB984-2AF5-4BF4-A615-2D65ABB4EE23}" Language="SFX" Hash="{E71D618A-DA46-4EC8-9125-142D3F555019}">
+			<ObjectPath>Islandmiddle</ObjectPath>
+			<ShortName>Islandmiddle</ShortName>
+			<Path>Event/Islandmiddle.bnk</Path>
+			<Media>
+				<File Id="134914914" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Floating Island\Island middle.wav</ShortName>
+					<Path>Media/134914914.wem</Path>
+					<CachePath>SFX/Floating Island/Island middle_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1098076601" Name="Islandmiddle" ObjectPath="\Events\Default Work Unit\New Virtual Folder\Islandmiddle" GUID="{3BBCB984-2AF5-4BF4-A615-2D65ABB4EE23}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="5.9045625" DurationMax="5.9045625">
+					<MediaRefs>
+						<MediaRef Id="134914914"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{453001A0-831D-FC37-EB9A-73C05616A16D}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{F645DCED-4D5C-4B4A-AFC2-EB99E253889B}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{BC7950B7-06F7-4459-907E-A0633F6D20CD}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="1062779386" Name="Player_speed" ObjectPath="\Game Parameters\Default Work Unit\Player_speed" GUID="{80363995-CF34-420D-BFD6-F91DDE0ECBAC}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1127519437" Name="Player_surfaces" ObjectPath="\Switches\Default Work Unit\Player_surfaces" GUID="{D932AE7F-5825-4744-A5EB-3DD6699488C4}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{9AD732D6-1D70-4475-A053-129D721A9876}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Material\Tile" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1404805401" Type="Event" GUID="{8576C948-1934-4170-9445-759C63F7D53F}" Language="SFX" Hash="{85A6C3C1-DC4D-71AD-30A3-F4722C9865C2}">
+			<ObjectPath>Dooropen</ObjectPath>
+			<ShortName>Dooropen</ShortName>
+			<Path>Event/Dooropen.bnk</Path>
+			<Media>
+				<File Id="207166539" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Door Open.wav</ShortName>
+					<Path>Media/207166539.wem</Path>
+					<CachePath>SFX/Door Open_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1404805401" Name="Dooropen" ObjectPath="\Events\Default Work Unit\Dooropen" GUID="{8576C948-1934-4170-9445-759C63F7D53F}" DurationType="OneShot" DurationMin="3.4334693" DurationMax="3.4334693">
+					<MediaRefs>
+						<MediaRef Id="207166539"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1616845350" Type="Event" GUID="{8563832B-5F23-439B-9D26-867728067CFE}" Language="SFX" Hash="{8D9C4A0A-65D8-8372-84F0-5B359EF67ACB}">
+			<ObjectPath>Keypickup</ObjectPath>
+			<ShortName>Keypickup</ShortName>
+			<Path>Event/Keypickup.bnk</Path>
+			<Media>
+				<File Id="469529450" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Key\Key 3.wav</ShortName>
+					<Path>Media/469529450.wem</Path>
+					<CachePath>SFX/Key/Key 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="586504896" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Key\Key 1.wav</ShortName>
+					<Path>Media/586504896.wem</Path>
+					<CachePath>SFX/Key/Key 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1056372522" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Key\Key 2.wav</ShortName>
+					<Path>Media/1056372522.wem</Path>
+					<CachePath>SFX/Key/Key 2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1616845350" Name="Keypickup" ObjectPath="\Events\Default Work Unit\Keypickup" GUID="{8563832B-5F23-439B-9D26-867728067CFE}" DurationType="OneShot" DurationMin="0.73639584" DurationMax="0.75752085">
+					<MediaRefs>
+						<MediaRef Id="469529450"/>
+						<MediaRef Id="586504896"/>
+						<MediaRef Id="1056372522"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2385628198" Type="Event" GUID="{84587803-DC18-45BC-AC8A-E902E6915812}" Language="SFX" Hash="{BF272AB7-412B-B401-EE6D-E7E862AFC1EB}">
+			<ObjectPath>Footsteps</ObjectPath>
+			<ShortName>Footsteps</ShortName>
+			<Path>Event/Footsteps.bnk</Path>
+			<Media>
+				<File Id="58755828" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 1.wav</ShortName>
+					<Path>Media/58755828.wem</Path>
+					<CachePath>SFX/Grass/Grass 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="203027913" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 3.wav</ShortName>
+					<Path>Media/203027913.wem</Path>
+					<CachePath>SFX/Tile/Tile 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="208665664" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 3.wav</ShortName>
+					<Path>Media/208665664.wem</Path>
+					<CachePath>SFX/Wood/Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221492408" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 1.wav</ShortName>
+					<Path>Media/221492408.wem</Path>
+					<CachePath>SFX/Tile/Tile 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="225716099" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 2.wav</ShortName>
+					<Path>Media/225716099.wem</Path>
+					<CachePath>SFX/Metal/Metal 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="271535065" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 2.wav</ShortName>
+					<Path>Media/271535065.wem</Path>
+					<CachePath>SFX/Grass/Grass 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="516007803" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 2.wav</ShortName>
+					<Path>Media/516007803.wem</Path>
+					<CachePath>SFX/Wood/Wood 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525485786" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 1.wav</ShortName>
+					<Path>Media/525485786.wem</Path>
+					<CachePath>SFX/Metal/Metal 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="599856624" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 1.wav</ShortName>
+					<Path>Media/599856624.wem</Path>
+					<CachePath>SFX/Wood/Wood 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601226781" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 3.wav</ShortName>
+					<Path>Media/601226781.wem</Path>
+					<CachePath>SFX/Grass/Grass 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="690801669" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 3.wav</ShortName>
+					<Path>Media/690801669.wem</Path>
+					<CachePath>SFX/Metal/Metal 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946109919" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 2.wav</ShortName>
+					<Path>Media/946109919.wem</Path>
+					<CachePath>SFX/Tile/Tile 2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" GUID="{84587803-DC18-45BC-AC8A-E902E6915812}" DurationType="OneShot" DurationMin="0.29333332" DurationMax="0.6506576">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="203027913"/>
+								<MediaRef Id="221492408"/>
+								<MediaRef Id="946109919"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+							<MediaRefs>
+								<MediaRef Id="208665664"/>
+								<MediaRef Id="516007803"/>
+								<MediaRef Id="599856624"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+							<MediaRefs>
+								<MediaRef Id="225716099"/>
+								<MediaRef Id="525485786"/>
+								<MediaRef Id="690801669"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+							<MediaRefs>
+								<MediaRef Id="58755828"/>
+								<MediaRef Id="271535065"/>
+								<MediaRef Id="601226781"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{9AD732D6-1D70-4475-A053-129D721A9876}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Material\Tile" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2851192318" Type="Event" GUID="{180AAB07-A032-4E33-BDAB-51BA1C0183B4}" Language="SFX" Hash="{3CB0CED7-DEE4-DCDB-1159-1A6DC6A12C99}">
+			<ObjectPath>Gempickup</ObjectPath>
+			<ShortName>Gempickup</ShortName>
+			<Path>Event/Gempickup.bnk</Path>
+			<Media>
+				<File Id="162381253" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Gem\Gem3.wav</ShortName>
+					<Path>Media/162381253.wem</Path>
+					<CachePath>SFX/Gem/Gem3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="188891156" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Gem\Gem 1.wav</ShortName>
+					<Path>Media/188891156.wem</Path>
+					<CachePath>SFX/Gem/Gem 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="388321635" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Gem\Gem 2.wav</ShortName>
+					<Path>Media/388321635.wem</Path>
+					<CachePath>SFX/Gem/Gem 2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2851192318" Name="Gempickup" ObjectPath="\Events\Default Work Unit\Gempickup" GUID="{180AAB07-A032-4E33-BDAB-51BA1C0183B4}" DurationType="OneShot" DurationMin="0.60083336" DurationMax="0.61875">
+					<MediaRefs>
+						<MediaRef Id="162381253"/>
+						<MediaRef Id="188891156"/>
+						<MediaRef Id="388321635"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2930403515" Type="Event" GUID="{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}" Language="SFX" Hash="{D6928967-F31E-C766-88CE-9935A1224A31}">
+			<ObjectPath>Victroy</ObjectPath>
+			<ShortName>Victroy</ShortName>
+			<Path>Event/Victroy.bnk</Path>
+			<Media>
+				<File Id="922255477" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Victory.wav</ShortName>
+					<Path>Media/922255477.wem</Path>
+					<CachePath>SFX/Victory_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2930403515" Name="Victroy" ObjectPath="\Events\Default Work Unit\Victroy" GUID="{5AB4E211-FC79-4F5C-958B-4BB81D74CE6B}" DurationType="OneShot" DurationMin="2.4468958" DurationMax="2.4468958">
+					<MediaRefs>
+						<MediaRef Id="922255477"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3003289914" Type="Event" GUID="{7BF6C7EB-5A57-4514-A7E2-69A82C63E983}" Language="SFX" Hash="{0E66CD11-6CB2-05DA-9149-7848393BE2DE}">
+			<ObjectPath>islandstart</ObjectPath>
+			<ShortName>islandstart</ShortName>
+			<Path>Event/islandstart.bnk</Path>
+			<Media>
+				<File Id="436645705" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Floating Island\island start.wav</ShortName>
+					<Path>Media/436645705.wem</Path>
+					<CachePath>SFX/Floating Island/island start_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3003289914" Name="islandstart" ObjectPath="\Events\Default Work Unit\New Virtual Folder\islandstart" GUID="{7BF6C7EB-5A57-4514-A7E2-69A82C63E983}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="2.872" DurationMax="2.872">
+					<MediaRefs>
+						<MediaRef Id="436645705"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" GUID="{C8813557-BDEF-413B-A714-5C3C80828BF4}" Language="SFX" Hash="{DEDEBCA4-9E6A-02AF-77AB-16EBB58898F4}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="38376692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coin\Coin 2.wav</ShortName>
+					<CachePath>SFX/Coin/Coin 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="297656704" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coin\Coin 1.wav</ShortName>
+					<CachePath>SFX/Coin/Coin 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="386111651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coin\Coin 3.wav</ShortName>
+					<CachePath>SFX/Coin/Coin 3_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2752428610" Name="coinpickup" ObjectPath="\Events\Default Work Unit\coinpickup" GUID="{E895D82B-F063-43EC-B1E9-CF840FD3BA0C}" DurationType="OneShot" DurationMin="0.94916666" DurationMax="0.94916666">
+					<MediaRefs>
+						<MediaRef Id="38376692"/>
+						<MediaRef Id="297656704"/>
+						<MediaRef Id="386111651"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3202316517" Type="Event" GUID="{49C66714-64D5-4B6F-96A5-0B68FB6CB951}" Language="SFX" Hash="{4E460B30-6152-3214-26C1-DCE3C5CAD0B6}">
+			<ObjectPath>Switch</ObjectPath>
+			<ShortName>Switch</ShortName>
+			<Path>Event/Switch.bnk</Path>
+			<Media>
+				<File Id="658327705" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Door switch.wav</ShortName>
+					<Path>Media/658327705.wem</Path>
+					<CachePath>SFX/Door switch_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3202316517" Name="Switch" ObjectPath="\Events\Default Work Unit\Switch" GUID="{49C66714-64D5-4B6F-96A5-0B68FB6CB951}" DurationType="OneShot" DurationMin="0.52685416" DurationMax="0.52685416">
+					<MediaRefs>
+						<MediaRef Id="658327705"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3374552089" Type="Event" GUID="{39C05EED-D374-4400-9950-6FC86EEC6063}" Language="SFX" Hash="{83C176F3-FBC4-EE53-A339-83AED152D2E4}">
+			<ObjectPath>Islandend</ObjectPath>
+			<ShortName>Islandend</ShortName>
+			<Path>Event/Islandend.bnk</Path>
+			<Media>
+				<File Id="780587267" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Floating Island\Island end.wav</ShortName>
+					<Path>Media/780587267.wem</Path>
+					<CachePath>SFX/Floating Island/Island end_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3374552089" Name="Islandend" ObjectPath="\Events\Default Work Unit\New Virtual Folder\Islandend" GUID="{39C05EED-D374-4400-9950-6FC86EEC6063}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="2.3959167" DurationMax="2.3959167">
+					<MediaRefs>
+						<MediaRef Id="780587267"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3478592334" Type="Event" GUID="{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}" Language="SFX" Hash="{D9D89A0D-30EE-4F7A-F35F-FDCF24B33FF1}">
+			<ObjectPath>sphere</ObjectPath>
+			<ShortName>sphere</ShortName>
+			<Path>Event/sphere.bnk</Path>
+			<Media>
+				<File Id="465870529" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalSphere.wav</ShortName>
+					<Path>Media/465870529.wem</Path>
+					<CachePath>SFX/MetalSphere_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3478592334" Name="sphere" ObjectPath="\Events\Default Work Unit\sphere" GUID="{5305EE90-6C7C-47A1-95C7-EC652D57C0C7}" DurationType="OneShot" DurationMin="7.5" DurationMax="7.5">
+					<MediaRefs>
+						<MediaRef Id="465870529"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3553349781" Type="Event" GUID="{527AEBCE-64E6-4380-B69C-C410987A369E}" Language="SFX" Hash="{278B6344-FC17-DE15-4F67-65A9A7236705}">
+			<ObjectPath>Inside</ObjectPath>
+			<ShortName>Inside</ShortName>
+			<Path>Event/Inside.bnk</Path>
+			<Media>
+				<File Id="357836959" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ambiances\inside.wav</ShortName>
+					<Path>Media/357836959.wem</Path>
+					<CachePath>SFX/Ambiances/inside_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3553349781" Name="Inside" ObjectPath="\Events\Default Work Unit\Inside" GUID="{527AEBCE-64E6-4380-B69C-C410987A369E}" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="357836959"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3714303081" Type="Event" GUID="{B4427E2A-1644-4204-9C0C-A03F3E2CFB2D}" Language="SFX" Hash="{0BCE35EA-195E-B86C-5CA0-8815A500469C}">
+			<ObjectPath>SurFaces</ObjectPath>
+			<ShortName>SurFaces</ShortName>
+			<Path>Event/SurFaces.bnk</Path>
+			<Media>
+				<File Id="58755828" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 1.wav</ShortName>
+					<Path>Media/58755828.wem</Path>
+					<CachePath>SFX/Grass/Grass 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="203027913" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 3.wav</ShortName>
+					<Path>Media/203027913.wem</Path>
+					<CachePath>SFX/Tile/Tile 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="208665664" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 3.wav</ShortName>
+					<Path>Media/208665664.wem</Path>
+					<CachePath>SFX/Wood/Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221492408" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 1.wav</ShortName>
+					<Path>Media/221492408.wem</Path>
+					<CachePath>SFX/Tile/Tile 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="225716099" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 2.wav</ShortName>
+					<Path>Media/225716099.wem</Path>
+					<CachePath>SFX/Metal/Metal 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="271535065" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 2.wav</ShortName>
+					<Path>Media/271535065.wem</Path>
+					<CachePath>SFX/Grass/Grass 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="516007803" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 2.wav</ShortName>
+					<Path>Media/516007803.wem</Path>
+					<CachePath>SFX/Wood/Wood 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525485786" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 1.wav</ShortName>
+					<Path>Media/525485786.wem</Path>
+					<CachePath>SFX/Metal/Metal 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="599856624" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 1.wav</ShortName>
+					<Path>Media/599856624.wem</Path>
+					<CachePath>SFX/Wood/Wood 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601226781" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 3.wav</ShortName>
+					<Path>Media/601226781.wem</Path>
+					<CachePath>SFX/Grass/Grass 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="690801669" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 3.wav</ShortName>
+					<Path>Media/690801669.wem</Path>
+					<CachePath>SFX/Metal/Metal 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946109919" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 2.wav</ShortName>
+					<Path>Media/946109919.wem</Path>
+					<CachePath>SFX/Tile/Tile 2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3714303081" Name="SurFaces" ObjectPath="\Events\Default Work Unit\SurFaces" GUID="{B4427E2A-1644-4204-9C0C-A03F3E2CFB2D}" DurationType="OneShot" DurationMin="0.29333332" DurationMax="0.6506576">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="203027913"/>
+								<MediaRef Id="221492408"/>
+								<MediaRef Id="946109919"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+							<MediaRefs>
+								<MediaRef Id="208665664"/>
+								<MediaRef Id="516007803"/>
+								<MediaRef Id="599856624"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+							<MediaRefs>
+								<MediaRef Id="225716099"/>
+								<MediaRef Id="525485786"/>
+								<MediaRef Id="690801669"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+							<MediaRefs>
+								<MediaRef Id="58755828"/>
+								<MediaRef Id="271535065"/>
+								<MediaRef Id="601226781"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{9AD732D6-1D70-4475-A053-129D721A9876}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Material\Tile" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3857664290" Type="Event" GUID="{8636E8AF-64E3-4719-9B28-958B692999ED}" Language="SFX" Hash="{817CAC4C-DB1B-25EF-A24A-D289D6C031BC}">
+			<ObjectPath>lifelayer</ObjectPath>
+			<ShortName>lifelayer</ShortName>
+			<Path>Event/lifelayer.bnk</Path>
+			<Media>
+				<File Id="214114415" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Belt 2.wav</ShortName>
+					<Path>Media/214114415.wem</Path>
+					<CachePath>SFX/LIfe Layer/Belt 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="829889734" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Belt 1.wav</ShortName>
+					<Path>Media/829889734.wem</Path>
+					<CachePath>SFX/LIfe Layer/Belt 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="838090625" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Cloth 1.wav</ShortName>
+					<Path>Media/838090625.wem</Path>
+					<CachePath>SFX/LIfe Layer/Cloth 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="969867495" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Cloth 2.wav</ShortName>
+					<Path>Media/969867495.wem</Path>
+					<CachePath>SFX/LIfe Layer/Cloth 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1033194330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>LIfe Layer\Belt 3.wav</ShortName>
+					<Path>Media/1033194330.wem</Path>
+					<CachePath>SFX/LIfe Layer/Belt 3_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3857664290" Name="lifelayer" ObjectPath="\Events\Default Work Unit\lifelayer" GUID="{8636E8AF-64E3-4719-9B28-958B692999ED}" DurationType="OneShot" DurationMin="0.14058957" DurationMax="1.0262812">
+					<MediaRefs>
+						<MediaRef Id="214114415"/>
+						<MediaRef Id="829889734"/>
+						<MediaRef Id="838090625"/>
+						<MediaRef Id="969867495"/>
+						<MediaRef Id="1033194330"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{26C93822-B6EC-5DB3-0187-0C31D8BF0910}</FileHash>
+</SoundBanksInfo>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2385628198" Type="Event" GUID="{84587803-DC18-45BC-AC8A-E902E6915812}" Language="SFX" Hash="{BF272AB7-412B-B401-EE6D-E7E862AFC1EB}">
+			<ObjectPath>Footsteps</ObjectPath>
+			<ShortName>Footsteps</ShortName>
+			<Path>Event/Footsteps.bnk</Path>
+			<Media>
+				<File Id="58755828" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 1.wav</ShortName>
+					<Path>Media/58755828.wem</Path>
+					<CachePath>SFX/Grass/Grass 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="203027913" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 3.wav</ShortName>
+					<Path>Media/203027913.wem</Path>
+					<CachePath>SFX/Tile/Tile 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="208665664" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 3.wav</ShortName>
+					<Path>Media/208665664.wem</Path>
+					<CachePath>SFX/Wood/Wood 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221492408" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 1.wav</ShortName>
+					<Path>Media/221492408.wem</Path>
+					<CachePath>SFX/Tile/Tile 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="225716099" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 2.wav</ShortName>
+					<Path>Media/225716099.wem</Path>
+					<CachePath>SFX/Metal/Metal 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="271535065" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 2.wav</ShortName>
+					<Path>Media/271535065.wem</Path>
+					<CachePath>SFX/Grass/Grass 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="516007803" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 2.wav</ShortName>
+					<Path>Media/516007803.wem</Path>
+					<CachePath>SFX/Wood/Wood 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525485786" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 1.wav</ShortName>
+					<Path>Media/525485786.wem</Path>
+					<CachePath>SFX/Metal/Metal 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="599856624" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wood\Wood 1.wav</ShortName>
+					<Path>Media/599856624.wem</Path>
+					<CachePath>SFX/Wood/Wood 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="601226781" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Grass\Grass 3.wav</ShortName>
+					<Path>Media/601226781.wem</Path>
+					<CachePath>SFX/Grass/Grass 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="690801669" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Metal\Metal 3.wav</ShortName>
+					<Path>Media/690801669.wem</Path>
+					<CachePath>SFX/Metal/Metal 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946109919" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Tile\Tile 2.wav</ShortName>
+					<Path>Media/946109919.wem</Path>
+					<CachePath>SFX/Tile/Tile 2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" GUID="{84587803-DC18-45BC-AC8A-E902E6915812}" DurationType="OneShot" DurationMin="0.29333332" DurationMax="0.6506576">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="203027913"/>
+								<MediaRef Id="221492408"/>
+								<MediaRef Id="946109919"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+							<MediaRefs>
+								<MediaRef Id="208665664"/>
+								<MediaRef Id="516007803"/>
+								<MediaRef Id="599856624"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+							<MediaRefs>
+								<MediaRef Id="225716099"/>
+								<MediaRef Id="525485786"/>
+								<MediaRef Id="690801669"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+							<MediaRefs>
+								<MediaRef Id="58755828"/>
+								<MediaRef Id="271535065"/>
+								<MediaRef Id="601226781"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{9AD732D6-1D70-4475-A053-129D721A9876}">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Material\Wood" GUID="{034DC98E-D905-4E29-9DE1-A17BFACD8899}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{3E4D2B96-6E33-4DCB-9208-50328709B6BA}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\Material\Tile" GUID="{827FFF30-B705-4B9D-9820-669E3D13A11D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Material\Grass" GUID="{E2D2F7C8-330B-497D-81F2-D887F13388B6}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3B27CDB6-5E48-E401-D60D-1385E100FF67}</FileHash>
+</SoundBanksInfo>
